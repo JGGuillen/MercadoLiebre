@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+.logo-link{
+    cursor: pointer;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header p{
+    text-align: center;
+}
+header nav{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 95%;
+    overflow: hidden;
+    height: 22px;
+    border-radius: 5px;
+    border: none;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+header .form{
+    background-color: white;
+    height: 22px;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    padding: 5% 2% 5% 5%;
+}
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    margin-top: 20px;
+    transition-duration: 350ms;
+}
+
+
+main article:hover .description{
+        color:#666;
+    }
+
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section article{
+        background-color: #fff;    
+        margin: 10px 0px;
+        cursor: pointer;
+}
+
+main section article:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0);
+        transition-duration: 350ms;
+}
+    
+ main article i:hover{
+        transform: rotate(-90deg);
+        transition-duration: 450ms;
+ }
+    
+
+main section h3{
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+
+}
+
+.precio-descuento{
+    display: flex;
+}
+
+footer{
+    font-size: 12px;
+    padding: 15px 10px;
+    text-align: center;
+    background-color: white;
+}
+
+footer h2{
+    font-size: 12px;
+    
+}
+
+footer p{
+    padding: 10px 0;
+
+}
+
+div.footer-icon{
+    color:#0044AA;
+    font-size: 2em;
+}
+
+.footer-icon:hover{
+    color: #267dff;
+    transition-duration: 100ms;
+}
+
+
+
+/* Register */
+
+main section form h2.regform{
+    margin: 1.8rem 0;
+    text-align: left;
+}
+
+.dato-formulario label{
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+.dato-formulario{
+    margin-bottom: 15px;
+}
+
+.casilla{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 5px;
+}
+
+.perfil-tipo{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.intereses{
+    margin-top: 15px;
+}
+
+.check{
+    margin: 10px 0;
+}
+
+.register-sec, .login-sec{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-button{
+    display:flex;
+    flex-direction:column
+}
+
+.button-enviar, .button-login{
+    color:white;
+    background-color: #1259c3;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+}
+
+.button-login:hover{
+    background-color: #0022AA;
+    transition-duration: 300ms;
+}
+
+.button-enviar:hover{
+    background-color: #0022AA;
+    transition-duration: 300ms;  
+}
+
+.button-login{
+    margin: 1.8rem 0;
+}
+
+.button-borrar{
+    background-color: rgb(184, 181, 182);
+    color:#666;
+    border:none;
+    cursor: pointer;
+    height: 40px;
+}
+
+.contenedor-button{
+    margin-top: 40px;
+}
+
+/* Login */
+
+
+.login-form{
+    background-color: #ffffff9c;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+main section form h2{
+    margin: 1.8rem 0;
+    text-align: center;
+}
+
+
+/* desktop */
+
+@media (min-width: 769px){
+    div.top-header {
+        width: 66%;
+        padding: 5% 0 5% 5%; 
+    }
+
+    header nav{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    main section article{
+        width: 23% !important;
+    }
+
+    .login-form{
+        width: 50%;
+    }
+
+    .contenedor-footer{
+        display:flex;
+    }
+
+    h4.description{
+        color: white;
+    }
+
+    main.login{
+        height: 70vh;
+    }
+
+    .register-form{
+        width: 60%;
+        background-color: #ffffff9c;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .perfil-tipo{
+        width: 50%;
+    }
+
+    .intereses{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contenedor-button{
+        margin-bottom: 20px;
+    }
+}
+
+/* tablet */
+@media (min-width: 361px){
+    .header-tablet{
+        display: flex;
+        align-items: center;
+    
+    }
+
+    div.top-header{
+        width: 66%;
+    }
+
+    div.contenedor-mensaje{
+        width: 33%;
+    }
+
+    main section article .description{
+        display: block;
+    }
+
+    main section article{
+        width: 45%;
+    }
+
+    div.burger-menu {
+        display: none;
+    }
+
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .discount{
+        width: 50%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .price{
+        width: 50%;
+        font-size: 15px;
+    }
+
+    nav.navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+    }
+     
+    .bar1, .bar2 {
+        width: 47%;
+    }
+
+    .lista1, .lista2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 360px){
+    .navegacion {
+        display: none;
+    }
+
+    h4.description{
+        display: none;
+    }
+
+    .register-sec{
+        margin-top:0;
+    }
+    
+    .button-enviar{
+        margin-top: 1.5rem;
+    }
+}
+
+ colores {
+  color: #ebebeb;/* gris claro*/
+  color: #666; /* gris oscuro*/ 
+  color: #1259c3; /*celeste claro*/
+  color: #0022AA; /* celeste*/ 
+  color: #03264C; /*azul*/
+  color: #EAC926; /*amarillo*/
+  color: #39B54a; /*verde*/
+ }
