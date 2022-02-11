@@ -110,7 +110,6 @@ div.burger-menu i{
 }
 
 .price{
-    font-size: 18px;
     width: 30%;
 }
 
@@ -118,8 +117,7 @@ div.burger-menu i{
     width: 70%;
 }
 
-.discount,
-.description{
+.discount, .description{
     font-size: 16px;
     font-weight: normal;
 }
@@ -137,7 +135,7 @@ h3,
 
 main article:hover .description{
         color:#666;
-    }
+}
 
 
 section.banner img{
@@ -428,9 +426,8 @@ main section form h2{
     }
 
     .discount{
-        width: 50%;
         font-size: 15px;
-        text-align: center;
+        text-align: right;
     }
 
     .price{
